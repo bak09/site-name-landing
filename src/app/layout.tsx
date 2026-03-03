@@ -25,7 +25,7 @@ export const metadata: Metadata = {
     type: "website",
     images: [{ url: "/images/og.webp", width: 1200, height: 630, alt: "Site Name" }],
   },
-  metadataBase: new URL("https://example.com"),
+metadataBase: new URL("https://site-name-landing.vercel.app"),
 };
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
